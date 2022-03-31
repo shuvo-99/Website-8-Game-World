@@ -3,3 +3,21 @@
   top: 0;
   padding: 30px 20px;
 }
+
+.cart-select {
+  background-color: aliceblue;
+  display: flex;
+  align-items: center;
+  margin-bottom: 5px;
+  border-radius: 10px;
+}
+
+.cart-select-text {
+  padding-left: 30px;
+}
+
+.cart-select img {
+  width: 40px;
+  height: 40px;
+  padding-left: 30px;
+}
