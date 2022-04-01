@@ -6,10 +6,14 @@ const Cart = (props) => {
   const { cart } = props;
   // console.log(cart);
   let i = [];
+  let count = 0;
   for (const product of cart) {
-    i.push(product.name);
-    if (i.length == 5) {
+    count += 1;
+
+    if (count == 5) {
       alert("You cannot add any more than 4");
+    } else {
+      i.push(product.name);
     }
   }
 
